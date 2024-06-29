@@ -286,3 +286,10 @@ a {
   align-items: end;
   margin-bottom: 37px;
 }
+
+.fa-solid{
+    width: 33px;
+    height: 34px;
+    margin-top: 8px;
+    margin-bottom: -11px;
+}

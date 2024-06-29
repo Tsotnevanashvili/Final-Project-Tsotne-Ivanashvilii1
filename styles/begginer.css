@@ -1,0 +1,202 @@
+body {
+  font-family: sans-serif;
+  background-color: #dfdfdf;
+  margin: 0;
+  padding: 0;
+  animation: fade-up 1.5s;
+}
+
+.logo {
+  width: 125px;
+  height: 100px;
+}
+
+.chamonatvali {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 120px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 50px;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 30px;
+  display: none !important;
+}
+
+.HOMME {
+  color: white;
+}
+
+.HOME {
+  color: white;
+}
+
+.log {
+  color: white;
+}
+
+.Geo {
+  width: 40px;
+  height: 28px;
+  background-color: white;
+}
+
+.gel {
+  color: white;
+}
+
+a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+
+#gsearch {
+  width: 477px;
+  height: 34px;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+#submit {
+  width: 33px;
+  height: 34px;
+  margin-top: 12px;
+}
+@media only screen and (max-width: 1450px) {
+  .fa-bars {
+    display: block !important;
+    margin-right: 50px;
+    font-size: 47px;
+    margin-left: 10px;
+  }
+
+  .right-side {
+    display: none;
+  }
+}
+
+.background{
+background-image: url(../images/begginer.JPG);
+height: 558px;
+background-size: cover;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+font-size: 53px;
+margin: 0
+}
+
+
+.text2{
+margin: auto;
+width: 50%;
+padding: 10px;
+text-align: start;
+font-size: 20px;
+animation: fade linear;
+animation-timeline: view();
+}
+
+
+@keyframes fade-up {
+0% {
+  opacity: 0;
+  transform:  translateY(30px) scale(0.9);
+}
+
+100%{
+  opacity: 1;
+  transform:  translateY(0px) scale(1);
+}
+}
+
+
+@keyframes fade{
+from {
+  opacity: 0;
+}
+to{
+  opacity: 1;
+}
+0%{
+  opacity: 0.2;
+}
+50%{
+  opacity: 1;
+  transform: translate();
+}
+100%{
+  transform: translate();
+}
+}
+
+p{
+color: #7b7b7b;
+}
+
+
+a {
+margin-left: 30px;
+text-decoration: none;
+color: white;
+}
+.cs {
+color: white;
+font-size: 17px;
+margin-left: 28px;
+margin-bottom: -3px;
+}
+
+.cs2 {
+color: white;
+font-size: 22px;
+margin-left: 28px;
+margin-bottom: -3px;
+}
+
+.chamonatvali2 {
+display: flex;
+background-color: black;
+height: 178px;
+width: -webkit-fill-available;
+
+}
+
+.logo4 {
+width: 125px;
+height: 100px;
+display: inline;
+margin-top: 44px;
+}
+
+.column {
+display: flex;
+}
+
+.columnn {
+width: 179px;
+font-size: 15px;
+display: grid;
+align-items: end;
+margin-bottom: 37px;
+}

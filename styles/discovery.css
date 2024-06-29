@@ -1,0 +1,205 @@
+body {
+  font-family: sans-serif;
+  background-color: #dfdfdf;
+  margin: 0;
+  padding: 0;
+  animation: fade-up 1.5s;
+}
+
+.logo {
+  width: 95px;
+  height: 84px;
+}
+
+.chamonatvali {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 120px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 50px;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 30px;
+  display: none !important;
+}
+
+.HOMME,
+.HOME,
+.log,
+.gel {
+  color: white;
+}
+
+#gsearch {
+  width: 477px;
+  height: 34px;
+  margin-left: 20px;
+}
+
+.Geo {
+  width: 40px;
+  height: 28px;
+  background-color: white;
+}
+
+a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+#submit {
+  width: 33px;
+  height: 34px;
+}
+
+.one {
+  text-align: center;
+  font-size: 52px;
+  animation: fade linear;
+}
+
+.cho {
+  text-align: center;
+  color: black;
+  font-size: 17px;
+  margin-top: -8px;
+  animation: fade linear;
+}
+
+.men,
+.women,
+.muscle {
+  width: 265px;
+  height: 187px;
+  transition: width 2s, height 2s;
+}
+
+.men:hover,
+.women:hover,
+.muscle:hover {
+  width: 300px;
+  height: 230px;
+}
+
+.workouts,
+.workouts2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  animation: fade linear;
+}
+
+.workout_card,
+.workout_card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.work,
+.man,
+.muc {
+  text-decoration: none;
+  color: black;
+}
+
+.chamonatvali2 {
+  display: flex;
+  background-color: black;
+  height: 178px;
+  width: -webkit-fill-available;
+}
+
+.cs,
+.cs2 {
+  color: white;
+  margin-left: 28px;
+  margin-bottom: -3px;
+}
+
+.cs {
+  font-size: 17px;
+}
+
+.cs2 {
+  font-size: 22px;
+}
+
+.columnn {
+  width: 179px;
+  font-size: 15px;
+  display: grid;
+  align-items: end;
+  color: white;
+  height: 123px;
+}
+
+.logo4 {
+  width: 125px;
+  height: 100px;
+  display: inline;
+  margin-top: 44px;
+}
+
+@media only screen and (max-width: 1450px) {
+  .fa-bars {
+    display: block !important;
+    margin-right: 50px;
+    font-size: 47px;
+    margin-left: 10px;
+  }
+
+  .right-side {
+    display: none;
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+    transform: translate();
+  }
+  100% {
+    transform: translate();
+  }
+}

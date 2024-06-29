@@ -1,0 +1,330 @@
+body {
+  font-family: sans-serif;
+  background-color: #dfdfdf;
+  margin: 0;
+  padding: 0;
+  animation: fade-up 1.5s;
+}
+
+.logo {
+  width: 125px;
+  height: 100px;
+}
+
+.chamonatvali {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 120px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 50px;
+}
+
+.fa-burger {
+  color: white;
+  font-size: 30px;
+  display: none !important;
+}
+
+.HOMME {
+  color: white;
+}
+
+.HOME {
+  color: white;
+}
+
+.background {
+  background-image: url(../images/dumbell.jpg);
+  height: 558px;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.ttext {
+  text-align: center;
+  font-size: 62px;
+  color: white;
+  margin: 0;
+}
+
+.ttext2 {
+  font-size: 23px;
+  color: white;
+}
+
+#gsearch {
+  width: 477px;
+  height: 34px;
+  margin-left: 20px;
+}
+
+.log {
+  color: white;
+}
+
+.Geo {
+  width: 40px;
+  height: 28px;
+  background-color: white;
+}
+
+.gel {
+  color: white;
+}
+
+a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+#submit {
+  width: 33px;
+  height: 34px;
+}
+
+.one {
+  text-align: center;
+  font-size: 52px;
+  animation: fade linear;
+  animation-timeline: view();
+}
+
+.cho {
+  text-align: center;
+  color: black;
+  font-size: 17px;
+  margin-top: -8px;
+}
+
+.workouts {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  display: flex;
+}
+
+.work {
+  text-decoration: none;
+  color: black;
+}
+
+.man {
+  color: black;
+}
+
+.muc {
+  text-decoration: none;
+  color: black;
+}
+
+.workouts2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+}
+
+.ab {
+  margin-left: 322px;
+}
+
+.beg {
+  margin-left: 278px;
+}
+
+.chamonatvali2 {
+  display: flex;
+  background-color: black;
+  height: 178px;
+  width: -webkit-fill-available;
+}
+
+.cs {
+  color: white;
+  font-size: 17px;
+  margin-left: 28px;
+  margin-bottom: -3px;
+}
+
+.columnn,
+.columnn2,
+.columnn3 {
+  width: 110px;
+  color: white;
+  font-size: 10px;
+  height: 123px;
+}
+
+.columnn {
+  width: 179px;
+  font-size: 15px;
+  display: grid;
+  align-items: end;
+}
+
+.columnn2 {
+  width: 179px;
+  font-size: 15px;
+  display: grid;
+}
+
+.columnn3 {
+  margin-left: -116px;
+  margin-top: -67px;
+  display: grid;
+}
+
+.chamonatvali3 {
+  display: flex;
+}
+
+.cs2 {
+  color: white;
+  font-size: 22px;
+  margin-left: 28px;
+  margin-bottom: -3px;
+}
+
+.chamonatvali4 {
+  display: flex;
+  color: white;
+}
+
+.cs3 {
+  color: white;
+  font-size: 18px;
+  margin-left: 730px;
+  margin-top: -88px;
+}
+
+.logo4 {
+  width: 125px;
+  height: 100px;
+  display: inline;
+  margin-top: 44px;
+}
+
+@media only screen and (max-width: 1385px) {
+  .fa-bars {
+    display: block !important;
+    margin-right: 50px;
+    font-size: 47px;
+    margin-left: 10px;
+    color: white;
+  }
+
+  .right-side {
+    display: none;
+  }
+}
+
+li {
+  text-align: center;
+  font-size: 30px;
+}
+
+.workouts2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.workout_card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.dum {
+  margin-left: 150px;
+  font-size: 64px;
+}
+
+.cat {
+  display: inline-block;
+  margin-left: 160px;
+}
+
+.text2 {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: start;
+  font-size: 20px;
+  animation: fade linear;
+  animation-timeline: view();
+}
+
+.bi2 {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+    transform: translate();
+  }
+  100% {
+    transform: translate();
+  }
+}
+
+p {
+  color: #7b7b7b;
+}
